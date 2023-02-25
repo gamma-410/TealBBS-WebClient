@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     post() {
-      this.url = "https://teal-bbs.glitch.me/post?username=" + this.username + "&tweet=" + this.tweet
+      this.url = "https://vercel-python-dusky.vercel.app/post?username=" + this.username + "&tweet=" + this.tweet
      },
   },
 };
