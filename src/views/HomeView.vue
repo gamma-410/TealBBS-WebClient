@@ -21,7 +21,7 @@ export default {
   },
   mounted() {
     axios
-      .get("https://teal-bbs.glitch.me/")
+      .get("https://vercel-python-dusky.vercel.app/")
       .then((res) => {
         console.log(res);
         this.tweets = res.data;
